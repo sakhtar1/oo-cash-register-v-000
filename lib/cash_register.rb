@@ -15,7 +15,7 @@ class CashRegister
 
       while quantity > 0
         items.push(title)
-        quantity = 1
+        quantity -= 1
       end
       @last_transaction = quantity
   end
