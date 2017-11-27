@@ -7,7 +7,7 @@ class CashRegister
     @total = 0
     @discount = discount
     @items = []
-    
+
   end
 
   def add_item(title, price, quantity = 1)
@@ -15,7 +15,7 @@ class CashRegister
 
       while quantity > 0
         items.push(title)
-        quantity -= 1
+        quantity = 1
       end
       @last_transaction = quantity
   end
