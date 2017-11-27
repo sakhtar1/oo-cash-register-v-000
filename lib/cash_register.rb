@@ -37,6 +37,6 @@ class CashRegister
   def void_last_transaction
     total = 1.76
     last_transaction = 1.76
-    total - last_transaction
+    self.total - self.last_transaction
   end
 end
