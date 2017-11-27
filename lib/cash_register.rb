@@ -11,6 +11,9 @@ class CashRegister
 
   end
 
+  def last_transaction= (last_transaction)
+    @last_transaction = last_transaction
+
   def add_item(title, price, quantity = 1)
     quantity > 1 ? self.total += (price * quantity) : self.total += price
 
