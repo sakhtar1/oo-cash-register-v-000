@@ -17,7 +17,7 @@ class CashRegister
         quantity -= 1
       end
 
-      @last_transaction = quantity
+    
 
   end
 
