@@ -12,7 +12,7 @@ class CashRegister
   def add_item(title, price, quantity = 1)
     quantity > 1 ? self.total += (price * quantity) : self.total += price
 
-      if quantity > 0
+      until quantity > 0
         items.push(title)
         quantity -= 1
       end
