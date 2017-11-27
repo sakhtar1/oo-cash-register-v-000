@@ -16,6 +16,7 @@ class CashRegister
         items.push(title)
         quantity -= 1
       end
+      @last_transaction = quantity
   end
 
   def apply_discount
