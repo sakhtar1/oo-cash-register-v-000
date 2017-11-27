@@ -7,7 +7,7 @@ class CashRegister
   end
 
   def add_item
-    @total 
+    self.total += 1 
   end
 
   def apply_discount
